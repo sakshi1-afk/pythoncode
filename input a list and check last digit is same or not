@@ -1,0 +1,6 @@
+my_list = eval(input("enter a list of numbers:"))
+
+if(my_list[0] == my_list[-1] and len(my_list)>0):
+    print(True)
+else:
+    print(False)
